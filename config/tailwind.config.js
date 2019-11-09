@@ -28,7 +28,7 @@ module.exports = {
         'serif',
       ],
       sans: [
-        'ff-meta-web-pro',
+        'pragmatica',
         '-apple-system',
         'BlinkMacSystemFont',
         'Segoe UI',

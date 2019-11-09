@@ -12,6 +12,46 @@
   width: 1px !important;
 }
 
-.general-content p {
+.about p {
   @apply mb-4 leading-relaxed;
+}
+
+.general-content > p {
+  @apply text-lg mb-6 leading-relaxed;
+}
+
+.general-content h2,
+.general-content h3,
+.general-content h4 {
+  @apply pb-6 pt-8 font-bold font-serif;
+}
+
+.general-content h2 {
+  @apply text-2xl;
+}
+
+.general-content blockquote {
+  @apply pl-6 py-1 border-l-2 border-grey-500 mb-6;
+}
+
+.general-content blockquote > p {
+  @apply text-xl leading-relaxed mb-3;
+}
+
+.general-content blockquote > cite {
+  @apply font-bold not-italic;
+}
+
+@screen md {
+  .general-content h2 {
+    @apply text-3xl;
+  }
+
+  .general-content h3 {
+    @apply text-2xl;
+  }
+
+  .general-content h4 {
+    @apply text-xl;
+  }
 }
